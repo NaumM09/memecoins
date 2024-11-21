@@ -1,3 +1,5 @@
+import React from 'react';
+
 const TrendingCoins = () => {
     const coins = [
       { name: "Dogecoin", description: "The original meme king!" },
