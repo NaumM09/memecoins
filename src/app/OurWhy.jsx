@@ -9,16 +9,16 @@ const OurWhy = () => {
           Why We Started Memecoin Beginners
         </h2>
         <p className="text-gray-700 text-lg leading-relaxed mb-8">
-          The crypto world is exciting, but it’s also filled with scams and misleading promises. 
+          The crypto world is exciting, but it&apos;s also filled with scams and misleading promises. 
           We created **Memecoin Beginners** to help people navigate this space safely and successfully. 
-          After getting scammed myself, I made it my mission to ensure others don't fall into the same traps.
+          After getting scammed myself, I made it my mission to ensure others don&apos;t fall into the same traps.
         </p>
         <motion.div
           whileHover={{ scale: 1.1 }}
           className="bg-yellow-100 text-yellow-700 px-6 py-4 rounded-lg shadow-md inline-block"
         >
           <p className="font-semibold text-lg">
-            "I got scammed so you don’t have to."
+            &#34I got scammed so you don&apos;t have to.&#34
           </p>
         </motion.div>
         <div className="mt-10">
