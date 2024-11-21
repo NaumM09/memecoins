@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from "framer-motion";
 import { FaWallet, FaChartLine, FaSearch } from "react-icons/fa";
 
