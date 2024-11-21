@@ -1,0 +1,247 @@
+/* Our Why Section */
+#our-why {
+  background-color: #f9f4ff; /* Light purple background */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#our-why h2 {
+  color: #6A0DAD; /* Deep purple */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#our-why p {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#our-why .btn {
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#our-why .btn-primary {
+  background: #6A0DAD;
+  color: white;
+}
+
+#our-why .btn-primary:hover {
+  background: #5a0da5;
+}
+
+#our-why .btn-outline {
+  border: 2px solid #6A0DAD;
+  background: transparent;
+  color: #6A0DAD;
+}
+
+#our-why .btn-outline:hover {
+  background: #6A0DAD;
+  color: white;
+}
+
+/* Crypto Craze Section */
+#crypto-craze {
+  background-color: #fff7e5; /* Light yellow background */
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+#crypto-craze h2 {
+  color: #d4af37; /* Golden yellow */
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#crypto-craze p {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#crypto-craze .crypto-feature {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#crypto-craze .crypto-feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+#crypto-craze .crypto-feature h3 {
+  color: #6A0DAD; /* Purple header */
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+#crypto-craze .crypto-feature p {
+  color: #555;
+  font-size: 1rem;
+}
+
+/* Footer Section */
+footer {
+  background-color: #1a202c; /* Dark gray */
+  color: #f7fafc; /* Light gray text */
+  padding: 4rem 2rem;
+}
+
+footer .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #FFD700; /* Golden yellow */
+}
+
+footer .links {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+footer .nav-link {
+  color: #f7fafc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .nav-link:hover {
+  color: #FFD700;
+}
+
+footer .social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+footer .social-icons a {
+  color: #f7fafc;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+footer .social-icons a:hover {
+  color: #FFD700; /* Golden hover */
+}
+
+footer form input {
+  padding: 0.8rem;
+  margin-right: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 200px;
+}
+
+footer form button {
+  background-color: #FFD700;
+  color: #1a202c;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+footer form button:hover {
+  background-color: #FF4500; /* Bright orange on hover */
+}
+
+footer .copyright {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+footer .copyright a {
+  color: #FFD700;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer .copyright a:hover {
+  color: #FF4500; /* Orange hover */
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.space-y-2 > *:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Trending Coins Section */
+.trending-coins {
+  padding: 4rem 2rem;
+  background-color: #f7f9fc; /* Light background for the coins section */
+  text-align: center;
+}
+
+.trending-coins h2 {
+  font-size: 2.5rem;
+  color: #6A0DAD; /* Deep purple for the heading */
+  margin-bottom: 2rem;
+}
+
+.trending-coins .coin-card {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.trending-coins .coin-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.trending-coins .coin-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6A0DAD; /* Purple for the coin name */
+  margin-bottom: 0.8rem;
+}
+
+.trending-coins .coin-card p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.trending-coins .coin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+/* Hover effects for individual coins */
+.coin-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
